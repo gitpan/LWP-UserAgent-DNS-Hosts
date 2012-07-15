@@ -31,8 +31,9 @@ requires:
   Guard: 0
   LWP::Protocol: 0
   LWP::Protocol::http: 0
+  parent: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/p5-LWP-UserAgent-DNS-Hosts.git
-version: 0.02
+version: 0.03
