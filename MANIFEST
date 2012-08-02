@@ -19,6 +19,8 @@ MANIFEST			This list of files
 META.yml
 README.pod
 t/00_compile.t
+t/01_register.t
+t/02_read_hosts.t
 t/10_http.t
 t/11_https.t
 xt/01_pod.t

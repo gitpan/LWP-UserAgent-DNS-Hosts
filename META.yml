@@ -4,6 +4,7 @@ author:
   - 'NAKAGAWA Masaki <masaki@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  File::Temp: 0
   LWP::UserAgent: 0
   Test::Fake::HTTPD: 0.04
   Test::More: 0.98
@@ -35,4 +36,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/p5-LWP-UserAgent-DNS-Hosts.git
-version: 0.04
+version: 0.05
