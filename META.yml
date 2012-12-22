@@ -6,7 +6,7 @@ build_requires:
   ExtUtils::MakeMaker: 6.59
   File::Temp: 0
   LWP::UserAgent: 0
-  Test::Fake::HTTPD: 0.04
+  Test::Fake::HTTPD: 0.05
   Test::More: 0.98
   Test::UseAllModules: 0
 configure_requires:
@@ -28,12 +28,12 @@ recommends:
   HTTP::Daemon::SSL: 0
   LWP::Protocol::https: 0
 requires:
-  Guard: 0
   LWP::Protocol: 0
   LWP::Protocol::http: 0
+  Scope::Guard: 0
   parent: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/masaki/p5-LWP-UserAgent-DNS-Hosts.git
-version: 0.05
+version: 0.06
